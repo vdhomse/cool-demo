@@ -40,3 +40,8 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+group :development, :test do
+  gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'capybara', '2.1.0'
+end
